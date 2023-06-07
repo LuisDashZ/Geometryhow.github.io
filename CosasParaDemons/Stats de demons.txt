@@ -1,0 +1,66 @@
+Extreme Demon: Valoración de dificultad máxima en Geometry Dash, alrededor de un 20% de los jugadores pueden completar este tipo de niveles.
+
+By: Indica el o los creadores de el nivel, mayormente se escribe el dueño o líder del grupo que lo creo primero y después "More", que significa que fue en colaboración con más creadores.
+
+Verified: Es el jugador que verificó que el nivel es posible de completar antes de subirlo oficialmente a los servidores públicos.
+
+First Victor: Es el primer jugador en completar el nivel oficial.
+
+ID: Es el identificador único del nivel para poderlo buscar de manera exacta dentro del juego.
+
+SongID: Es el identificador único de la canción con la que podemos buscar la canción del nivel desde el juego o desde la página de https://newgrounds.com
+
+Short/Medium/Long/XL: Son la clasificación de duración que se les da a los niveles en Geometry Dash, generalmente los Extreme Demons tienen una clasificación mínima de "Long" a "XL".
+........................................
+Top 10 - Arcturus
+By: maxfs
+Verified: UltraCauaHD - 129,480 intentos
+First Victor: paqoe - 17,462 intentos
+ID:72315402
+SongID:895761
+----------------------------------------
+Top 9 - Poocubed
+By: lisp & More
+Verified: Kyasshukodo - No mostró intentos
+First Victor: Zoink - No mostró intentos
+----------------------------------------
+Top 8 - Limbo
+By: MindCap & More
+Verified: BGram - 109,490 intentos
+First Victor: ViperVenom95 - 13,028 intentos
+----------------------------------------
+Top 7 - Firework
+By: Cherry team
+Verified: Trick - 234,000 intentos
+First Victor: spaceuk - 31,823 intentos
+----------------------------------------
+Top 6 - Sakupen Circles
+By: Muffy450 & More
+Verified: Diamond - 220,000 intentos
+First Victor: spaceuk - 38,399 intentos
+----------------------------------------
+Top 5 - Silent Clubstep
+By: Sailent
+Verified: paqoe - No mostró intentos
+First Victor: Zoink - 22,199 intentos
+----------------------------------------
+Top 4 - Abyss of Darkness
+By: Exen & More
+Verified: Cursed - 54,315 intentos
+First Victor: spaceuk - 27,864 intentos
+----------------------------------------
+Top 3 - Kyouki
+By: 出見塩 
+Verified: 出見塩 - 501,997 intentos
+First Victor: Zoink - 19,800 intentos
+----------------------------------------
+Top 2 - Slaughterhouse
+By: Icedcave & More 
+Verified: spaceuk - 41,802 intentos
+First Victor: Doggie - 79,170 intentos
+----------------------------------------
+Top 1 - Acheron
+By: Riot & More
+Verified: Zoink - 72,808 intentos
+First Victor: spaceuk - 38,997 intentos
+----------------------------------------
