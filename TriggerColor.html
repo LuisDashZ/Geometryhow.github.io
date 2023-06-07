@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GEOMETRY HOW-Trigger Color</title>
+
+<style> body{margin: 10px; padding: 20px; border: 10px solid #33C7FF; floa: left; borde-radius: 10px;}
+        img{
+        margin: 10px;
+        padding: 10px;
+        border: 4px solid white;
+        floa: left;
+        borde-radius: 10px;
+    }
+            img.no{
+        margin: 0px;
+        padding: 0px;
+        border: none;
+    }
+        iframe{
+        margin: 10px;
+        padding: 0px;
+        border: 9px solid #33C7FF;
+        floa: left;
+        borde-radius: 30px;
+    }
+    p{
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 25px;
+    }
+</style>
+    <style type="text/css">
+        body {
+            cursor: url("cursordefault.png"), crosshair;
+        }
+
+        a {
+            cursor: url("cursorpointer.png"), auto;
+        }
+    </style>
+    <style>
+        img.botonRegresar {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+        }
+            img.botonRegresar:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+        img.botonRegresar2 {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+            transform: scaleY(-1);
+        }
+            img.botonRegresar2:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+
+    </style>
+
+  </head>
+   <body background="multimedia/GDFondo.png">
+   <center>
+
+       <a href="TriggersMenu.html">
+           <img src="multimedia/Regresar.png" class="botonRegresar"/></img>
+       </a>
+       <br />
+       <img src="multimedia/ColorText.png" class="no">
+   </img></center>
+
+<p align="center" style= "margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">Los efectos del trigger solo se aplican cuando el jugador pasa la línea verde de la imágen (la línea indica el recorrido de la reproducción de la música). <br>
+
+
+<img align="center" src="multimedia/Colorimg06.png" width="400" height="220"><img align="center" src="multimedia/Colorimg07.png" width="400" height="220">
+
+<p style= "margin: 10px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">Color: Este trigger es usado para cambiar el color a una “ID de color” durante el transcurso del nivel. Esta ID de color puede ser asignada a cualquier objeto (excepto triggers), la cantidad máxima de ID’s de color son 999. La misma ID de color puede ser modificada varias veces durante el nivel por varios triggers, al igual que varios objetos pueden tener la misma ID de color.</font></p><img src="multimedia/TriggerColor.png" width="300" height="300" align="right" class="no">
+
+<center><img src="multimedia/Colorimg01.png" width="550" height="310"></center>
+
+<p style= "margin: 10px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">Con la paleta de colores podrás seleccionar cualquier color, el cual podrás observar en tiempo real en el cuadro superior izquierdo. Con los botones de la derecha podrás: "Copy": copiar el color que esté seleccionado para después "Paste": aplicar el color copiado a otro trigger que utilize ID de color"Default":remplazar el color seleccionado por el color predefinido (normalmente blanco) </font></font></p>
+<br>
+<br>
+
+<center><img src="multimedia/Colorimg02.png" width="700" height="410"></center>
+
+<p style= "margin: 10px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6"> En el símbolo "+" arriba de la ID de Color, podrémos seleccionar un diferente canal de color a los cuales no se les puede asignar una ID de color, pero si podrémos editar esa clase como lo haríamos con una ID de Color. Cada uno representa el color de una parte determinada, como el "BG": Fondo, que normalmente es un degradado entre el color seleccionado y negro. "G1": Parte superior de el suelo del nivel. "G2": Parte inferior de el suelo del nivel. "Line": Línea que delimita la parte superior de el suelo del nivel. "Obj": Color predefinido al colocar objetos. "3DL": Color predefinido de los objetos que se usan para simular el 3D en las estructuras.</font></font>
+<br>
+<center><img src="multimedia/Colorimg03.png" width="550" height="310"><img src="multimedia/Colorimg04.png" width="550" height="310"><br><br>
+<br><font color="white" size="5" style= "margin: 10px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"> Con el botón resaltado se puede editar el color sin que se tenga que abrir la interfaz del Trigger Color.</font></font></center>
+<br>
+
+<p style= "margin: 10px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">Al ingresar a "Edit Object" en algún objeto que se le pueda cambiar el color, se mostrará una interfaz así, los botones "P-Col 1 y 2, sirven para que el color se asigne a los colores del ícono del jugador que esté jugando el nivel, con el "Light BG" se asiganrá como un color más claro al del color del fondo en ese momento. "Next Free" te colocará el siguiente color disponible que no ah sido editado. "HSV" Te permitirá editar más propiedades del color, pero solo se le aplicarán al o los objetos que estés editando, no se aplica a todos los objetos que tengan esa ID de Color.</font></font></p>
+
+<center><img align="center" src="multimedia/Colorimg05.png" width="750" height="410"></center>
+
+<p align="center" style= "margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">La cantidad de ID's de Color disponibles en total es de 999.
+<br> Tutorial recomendado:
+</font>
+<br>
+
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/OUNOUO31Mds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+    <center>
+        <a href="TriggersMenu.html">
+            <img src="multimedia/Regresar.png" class="botonRegresar2" /></img></center>
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

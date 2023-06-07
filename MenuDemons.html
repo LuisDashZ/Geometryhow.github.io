@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MENU</title>
+    <style>
+        .menuprincipal {
+            background-color: #200000;
+            color: rgb(255, 0, 0);
+
+            border-color: #ff0000;
+            cursor: pointer;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+            .menuprincipal:hover {
+                color:#ffffff;
+                background-color: #790000;
+                padding: 10px;
+                margin-top: 10px;
+                border-radius: 0px;
+                border-color: #ff0000;
+            }
+
+        .desplegable {
+            position: relative;
+            display:table;
+            border-color: #ff0000;
+            color:#ff0000;
+        }
+
+        .desplegable-hijo {
+            display: none;
+            background-color:#200000 ;
+            min-width: 100px;
+            border-color: #ff0000;
+            color:#ff0000;
+
+        }
+
+            .desplegable-hijo:hover {
+                background-color: #200000;
+                border-color: #ff0000;
+                color:#ffffff;
+
+            }
+
+            .desplegable-hijo a {
+                background-color: #200000;
+                color:#ff0000;
+                padding: 10px;
+                text-decoration: none;
+                display: block;
+                border-color: #ff0000;
+            }
+
+        .desplegable:hover .desplegable-hijo {
+            display: block;
+        }
+    </style>
+    <style>
+        a:link {
+            background-color: #200000;
+            color:#ff0000;
+            border-color: #ff0000;
+        }
+
+        a:hover {
+            color: #ffffff;
+            background-color: #790000;
+            border-color: #ffffff;
+            transform: scaleX(1.1);
+                transition: ease-in;
+                transition-duration: 0.2s;
+        }
+    </style>
+
+</head>
+<body background="CosasParaDemons/FondoPrincipal.jpg">
+    <center>
+        <div class="desplegable">
+            <button class="menuprincipal">MENÚ PRINCIPAL</button>
+            <div class="desplegable-hijo">
+                <a href="Top10DemonsMenuPrincipal.html" target="centro">TABLA</a>
+                <a href="PaginasTopDemons/Top1.html" target="centro">TOP 1</a>
+                <a href="PaginasTopDemons/Top2.html" target="centro">TOP 2</a>
+                <a href="PaginasTopDemons/Top3.html" target="centro">TOP 3</a>
+                <a href="PaginasTopDemons/Top4.html" target="centro">TOP 4</a>
+                <a href="PaginasTopDemons/Top5.html" target="centro">TOP 5</a>
+                <a href="PaginasTopDemons/Top6.html" target="centro">TOP 6</a>
+                <a href="PaginasTopDemons/Top7.html" target="centro">TOP 7</a>
+                <a href="PaginasTopDemons/Top8.html" target="centro">TOP 8</a>
+                <a href="PaginasTopDemons/Top9.html" target="centro">TOP 9</a>
+                <a href="PaginasTopDemons/Top10.html" target="centro">TOP 10</a>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>GEOMETRY HOW-Trigger Alpha</title>
+
+    <style>
+        body {
+            margin: 10px;
+            padding: 20px;
+            border: 10px solid #33C7FF;
+            floa: left;
+            borde-radius: 10px;
+        }
+        img{
+        margin: 10px;
+        padding: 10px;
+        border: 4px solid white;
+        floa: left;
+        borde-radius: 10px;
+    }
+            img.no{
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        
+    }
+    iframe{
+        margin: 10px;
+        padding: 0px;
+        border: 9px solid #33C7FF;
+        floa: left;
+        borde-radius: 30px;
+    }
+    p{
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 25px;
+    }
+    </style>
+    <style type="text/css">
+        body {
+            cursor: url("cursordefault.png"), crosshair;
+        }
+
+        a {
+            cursor: url("cursorpointer.png"), auto;
+        }
+    </style>
+    <style>
+        img.botonRegresar {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+        }
+            img.botonRegresar:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+        img.botonRegresar2 {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+            transform: scaleY(-1);
+        }
+            img.botonRegresar2:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+
+    </style>
+</head>
+<body background="multimedia/GDFondo.png">
+    <center>
+
+        <a href="TriggersMenu.html">
+            <img src="multimedia/Regresar.png" class="botonRegresar"/></img>
+        </a>
+        <br /></center>
+    <center><img src="Alpha/AlphaP.png" class="no"></img></center>
+    <p align="center" style= "margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">
+    Alpha: Este trigger sirve para cambiarle la opacidad a uno o varios objetos, también deja configurar la velocidada a la que la opacidad cambiara.<br>
+<img align="center" src="Alpha/Alphaimg01.png" width="700" height="410"><img align="left" src="Alpha/Alpha.png" width="300" height="350" class="no">
+
+<p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+        <font color="white" size="6">
+            Si se configura como 0 el tiempo en que cambia la opacidad su efecto será inmediato, y abajo se muestra un ejemplo de como afecta la opacidad a los objetos por este Trigger mediante una Group ID.<br>
+
+<img alt="Cambiar imagen" height="500" align="center" onmouseout="this.src = 'Alpha/Alphaimg02.png';" onmouseover="    this.src = 'Alpha/Alphaimg03.png';" src="Alpha/Alphaimg02.png" align="center" />
+
+<p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+        <font color="white" size="6">
+            Un uso muy frecuente de este trigger, es poner en invisible objetos donde se requiere su hitbox, pero que no es necesario o no es estético verlos visualmente. Este trigger al igual que todos, si se pone antes de la línea que marca el comienzo de todos los niveles, los efectos serán aplicados desde antes que comience el nivel.<br>
+<img alt="Cambiar imagen" height="500" align="center" onmouseout="this.src = 'Alpha/Alphaimg04.png';" onmouseover="    this.src = 'Alpha/Alphaimg05.png';" src="Alpha/Alphaimg04.png" align="center" />
+<p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+        <font color="white" size="6">Tutorial recomendado:<br>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/tFHk-Txa6lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <center>
+            <a href="TriggersMenu.html">
+                <img src="multimedia/Regresar.png" class="botonRegresar2" /></img></center>
+    </body>
+</html>

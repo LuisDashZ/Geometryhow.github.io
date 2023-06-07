@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>GEOMETRY HOW-Trigger Toggle</title>
+
+    <style>
+        body {
+            margin: 10px;
+            padding: 20px;
+            border: 10px solid #33C7FF;
+            floa: left;
+            borde-radius: 10px;
+        }
+        img{
+        margin: 10px;
+        padding: 10px;
+        border: 4px solid white;
+        floa: left;
+        borde-radius: 10px;
+    }
+            img.no{
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        
+    }
+    iframe{
+        margin: 10px;
+        padding: 0px;
+        border: 9px solid #33C7FF;
+        floa: left;
+        borde-radius: 30px;
+    }
+    p{
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 25px;
+    }
+    </style>
+    <style type="text/css">
+        body {
+            cursor: url("cursordefault.png"), crosshair;
+        }
+
+        a {
+            cursor: url("cursorpointer.png"), auto;
+        }
+    </style>
+    <style>
+        img.botonRegresar {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+        }
+
+            img.botonRegresar:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+
+        img.botonRegresar2 {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+            transform: scaleY(-1);
+        }
+
+            img.botonRegresar2:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+    </style>
+</head>
+<body background="multimedia/GDFondo.png">
+    <center>
+        <a href="TriggersMenu.html">
+            <img src="multimedia/Regresar.png" class="botonRegresar" /></img>
+        </a></center>
+        <center><img src="multimedia/Toggle/ToggleP.png" class="no"></img></center>
+        <p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+            <font color="white" size="6">
+                Toggle: Este trigger activa o desactiva objetos u otros Triggers, es decir, ya sea eliminándolos o apareciendolos de nuevo si es que estaban eliminados anteriormente por otro trigger Toggle.<br><br>
+            </font>
+
+            <img align="center" src="multimedia/Toggle/Toggleimg01.png" width="700" height="410"><img align="left" src="multimedia/Toggle/Toggle.png" width="300" height="350" class="no">
+            <center>
+        <p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+            <font color="white" size="6">
+                Por ejemplo: Esta columna de bloques obstruye el paso del jugador y es imposible de saltar, por lo tanto el icono muere.<br> Nota: Pase el mouse por encima para ver la muerte del jugador por el obstáculo.
+            </font>
+
+            <img alt="Cambiar imagen" height="300" align="center" onmouseout="this.src = 'multimedia/Toggle/Toggleimg02.png';" onmouseover="    this.src = 'multimedia/Toggle/Toggleimg03.png';" src="multimedia/Toggle/Toggleimg02.png" align="center" />
+
+        <p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+            <font color="white" size="6">
+                En cambio con el trigger toggle, puede "eliminar" esta estructura en el transcurso del nivel.<br>
+            </font>
+            <img alt="Cambiar imagen" height="300" align="center" onmouseout="this.src = 'multimedia/Toggle/Toggleimg04.png';" onmouseover="    this.src = 'multimedia/Toggle/Toggleimg05.png';" src="multimedia/Toggle/Toggleimg04.png" align="center" />
+            <br>
+            <font color="white" size="6">
+                Pero activando la casilla "Activate Group" dentro de la interfaz de el Trigger Toggle, puede aplicar el efecto contrario, el cual es volver a aparecer la misma estructura después de que otro Trigger Toggle la haya desaparecido, que de hecho, al desaparecer no solo no es visible, sino que directamente no afecta al gameplay por lo tanto no tiene hitbox.<br>
+            </font>
+            <img alt="Cambiar imagen" height="300" align="center" onmouseout="this.src = 'multimedia/Toggle/Toggleimg06.png';" onmouseover="    this.src = 'multimedia/Toggle/Toggleimg07.png';" src="multimedia/Toggle/Toggleimg06.png" align="center" />
+            <br>
+            <font color="white" size="6">
+                Este trigger antiguamente era usado para hacer "low detail" dentro de los niveles, pero actualmente es más usado para hacer caminos o monedas secretas dentro del nivel.<br>
+            </font>
+
+        <p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+            <font color="white" size="6">
+                Tutorial recomendado:<br>
+                <iframe width="800" height="450" src="https://www.youtube.com/embed/WyWa4tGG0k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <center>
+                    <a href="TriggersMenu.html">
+                        <img src="multimedia/Regresar.png" class="botonRegresar2" /></img>
+                </center>
+                </a></center>
+
+
+</body>
+</html>

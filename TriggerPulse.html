@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>GEOMETRY HOW-Trigger Pulse</title>
+
+    <style>
+        body {
+            margin: 10px;
+            padding: 20px;
+            border: 10px solid #33C7FF;
+            floa: left;
+            borde-radius: 10px;
+        }
+        img{
+        margin: 10px;
+        padding: 10px;
+        border: 4px solid white;
+        floa: left;
+        borde-radius: 10px;
+    }
+            img.no{
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        
+    }
+    iframe{
+        margin: 10px;
+        padding: 0px;
+        border: 9px solid #33C7FF;
+        floa: left;
+        borde-radius: 30px;
+    }
+    p{
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 25px;
+    }
+    </style>
+    <style type="text/css">
+        body {
+            cursor: url("cursordefault.png"), crosshair;
+        }
+
+        a {
+            cursor: url("cursorpointer.png"), auto;
+        }
+    </style>
+    <style>
+        img.botonRegresar {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+        }
+            img.botonRegresar:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+        img.botonRegresar2 {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            height: 60px;
+            width: 60px;
+            transform: scaleY(-1);
+        }
+            img.botonRegresar2:hover {
+                transform: scale(1.1);
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+            }
+
+    </style>
+</head>
+<body background="multimedia/GDFondo.png">
+    <center>
+
+        <a href="TriggersMenu.html">
+            <img src="multimedia/Regresar.png" class="botonRegresar"/></img>
+        </a>
+        <br /></center>
+    <center><img src="multimedia/Pulse/PulseP.png" class="no"></img></center>
+
+    <p align="center" style= "margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">
+    Pulse: Este trigger sirve para dar un efecto de "pulso" de color a cualquier ID de color o tipo de color como lo puede ser BG, P1, Obj, etc.<br>
+<img align="center" src="multimedia/Pulse/Pulseimg01.png" width="700" height="410"><img align="left" src="multimedia/Pulse/Pulse.png" width="300" height="350"class="no"><br>
+Fade In: el tiempo que tardará la transición en cambiar el color. <br>
+Hold: el tiempo que permanecerá estático el nuevo color antes de empezar a regresar al original. <br>
+Fade Out: el tiempo que tardará la transición en regresar al color original. <br>
+</font>
+<img alt="Cambiar imagen" height="500" align="center" onmouseout="this.src = 'multimedia/Pulse/Pulseimg02.png';" onmouseover="    this.src = 'multimedia/Pulse/Pulseimg03.png';" src="multimedia/Pulse/Pulseimg02.png" align="center" />
+<p align="center" style= "margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">
+    Como se puede observar en el ejemplo, se usaron diferentes ID's de color, en el que cada trigger Pulse controlaba el color individualmente de cada pincho, evidentemente con una configuración de tiempos diferentes en cada uno.<br>
+    <img align="center" src="multimedia/Pulse/Pulseimg04.png" width="700" height="410">
+
+    <p align="center" style= "margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;"><font color="white" size="6">
+    Como ya se había mencionado, este trigger al igual que el "Color" no solo puede cambiar el color de una ID de color normal, sino tambien los tipos de color por default, como en el caso siguiente donde crea un efecto punsante de color rosado en el color del fondo "BG".<br>
+    <center><img src="multimedia/Pulse/Pulseimg05.png" onmouseover="this.width=420;this.height=280;" onmouseout="this.width=350;this.height=210;" width="420" height="280"><img src="multimedia/Pulse/Pulseimg06.png" onmouseover="this.width=420;this.height=280;" onmouseout="this.width=350;this.height=210;" width="420" height="280"><center><img src="multimedia/Pulse/Pulseimg07.png" onmouseover="this.width=420;this.height=280;" onmouseout="this.width=350;this.height=210;" width="420" height="280"></center>
+<br>
+<p align="center" style="margin: 30px; padding: 20px; border: 10px solid #006CEE; background-color: #000EB5;">
+        <font color="white" size="6">Tutorial recomendado:<br>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/wN5l8XX5BnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center>
+    <a href="TriggersMenu.html">
+        <img src="multimedia/Regresar.png" class="botonRegresar2" /></img></center>
+</body>
+</html>
